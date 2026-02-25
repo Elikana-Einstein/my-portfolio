@@ -1,5 +1,5 @@
 import MainCard from "../pages/Maincard";
-const Card = ({ title, description }) => {
+const Card = ({ title, description,image }) => {
     return (
         <div className="group max-w-sm h-64 mx-auto [perspective:1000px] cursor-pointer">
             <div className="relative w-full h-full transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
@@ -13,7 +13,7 @@ const Card = ({ title, description }) => {
         
                 {/* Back Side */}
                 <div className="absolute z-10 w-full h-full [backface-visibility:hidden]  [transform:rotateY(180deg)]">
-                   <MainCard />
+                   <MainCard image={image}/>
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ const Projects = () => {
         {
             cardData.map((card, index) => (
               <div key={index} className='mt-4'>
-              <Card  title={card.title} description={card.description} />
+              <Card  title={card.title} description={card.description} image={card.image} />
               </div>
             ))
           }

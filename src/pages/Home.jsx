@@ -5,10 +5,10 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 const Home = () => {
     return (
         <div>
-            <img src="/src/assets/bg.jpg"  width={800} className="rounded-sm mx-auto relative "/>
-            <div className="top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 absolute text-center">
-                <img src="/src/assets/elikana.jpeg" alt="elikana" width={100} height={200} className="rounded-full mx-auto mt-10  " />
-                <h1 className="text-4xl font-bold text-white mt-4">Elikana Mwangi</h1>
+            <img src="/src/assets/bg.jpg" l  className="rounded-sm mx-auto lg:w-3/4 md:w-[550px]  md:h-[450px] h-[450px] relative w-full"/>
+            <div className="lg:top-2/3 lg:left-1/2 md:top-[450px] left-[200px] top-[700px] md:left-1/2 transform -translate-x-1/2 -translate-y-1/2 absolute text-center">
+                <img src="/src/assets/elikana.jpeg" alt="elikana"  className="rounded-full mx-auto lg:mt-10 md:mt-1 w-[100px] md:w-1/4 " />
+                <h1 className="text-1xl md:text-2xl font-bold text-white mt-4">Elikana Mwangi</h1>
                 <p className="text-lg text-gray-300 mt-2">Full Stack Developer || AI engineer || Mechatronic engineer</p>
 
                 <div className="flex flex-row place-content-between mt-4">
